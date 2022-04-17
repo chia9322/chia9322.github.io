@@ -329,7 +329,7 @@
                       <a href="https://chia-h.notion.site/Order-Drink-2b544ada096c4e49bdd1150f2fcb275b">
                         <div class="portfolio-box">
                             <div class="portfolio-img">
-                                <img src="static/img/project-milkshop.png" title="" alt="">
+                                <img src="static/img/project/milkshop.png" title="" alt="">
                             </div>
                             <div class="portfolio-info">
                                 <div class="portfolio-info-in">
@@ -344,7 +344,7 @@
                       <a href="https://chia-h.notion.site/Number-Guessing-Game-79c9e43320d843cdbc40ac8c4b55d3f3">
                         <div class="portfolio-box">
                             <div class="portfolio-img">
-                                <img src="static/img/project-guess-number.png" title="" alt="">
+                                <img src="static/img/project/guess-number.png" title="" alt="">
                             </div>
                             <div class="portfolio-info">
                                 <div class="portfolio-info-in">
@@ -359,12 +359,42 @@
                       <a href="https://chia-h.notion.site/Apple-Pie-f93ecf2b32ed4c30b39b36c601d7c252">
                         <div class="portfolio-box">
                             <div class="portfolio-img">
-                                <img src="static/img/project-apple-pie.png" title="" alt="">
+                                <img src="static/img/project/apple-pie.png" title="" alt="">
                             </div>
                             <div class="portfolio-info">
                                 <div class="portfolio-info-in">
                                     <h5>Apple Pie</h5>
                                     <span>a word guessing game</span>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 my-1">
+                      <a href="https://apps.apple.com/jp/app/id1616575070">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <img src="static/img/project/travel-cost.png" title="" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <div class="portfolio-info-in">
+                                    <h5>Travel Cost</h5>
+                                    <span>an app to calculate gasoline cost for trip</span>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 my-1">
+                      <a href="https://chia-h.notion.site/Sweet-Crush-d28688e87c8540539d1ea411ec6e504e">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <img src="static/img/project/sweet-crush.png" title="" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <div class="portfolio-info-in">
+                                    <h5>Sweet crush</h5>
+                                    <span>a match-3 game</span>
                                 </div>
                             </div>
                         </div>
@@ -388,51 +418,71 @@
                       var myHTML = '';
 
                       var blog_posts = [
+                      {title: '#30 三消遊戲｜Sweet Crush｜Part1: 功能介紹/App架構',
+                      img: 'blog/blog-30',
+                      description: 'Candy Crush消除的是糖果，這個遊戲是消除各種甜點所以叫Sweet Crush。',
+                      url: 'https://medium.com/彼得潘的-swift-ios-app-開發教室/30-三消遊戲-sweet-crush-part1-功能介紹-app架構-1eb42a06e77f'
+                      },
+                      {title: '#29 訂飲料APP｜迷客夏｜Part5: 全螢幕Loading View',
+                      img: 'blog/blog-29',
+                      description: '心血來潮回來寫訂飲料App的文章，設計這個App的時候在畫面上花了蠻多心思，應該還可以寫好幾篇哈。這次先介紹抓資料時出現的全螢幕讀取畫面。',
+                      url: 'https://medium.com/彼得潘的-swift-ios-app-開發教室/29-訂飲料app-迷客夏-part5-全螢幕loading-view-b5245bf50f7d'
+                      },
+                      {title: '#28 Travel Cost 旅行交通費App｜Part2: App上架',
+                      img: 'blog/blog-28',
+                      description: '上一篇介紹了App的功能，這篇會針對上架流程來做說明。 看起來很步驟蠻多但其實比想像中還簡單。',
+                      url: 'https://medium.com/彼得潘的-swift-ios-app-開發教室/28-travel-cost-旅行交通費app-part2-app上架-361bff2f3c34'
+                      },
+                      {title: '#27 Travel Cost 旅行交通費App｜Part1: 功能介紹',
+                      img: 'blog/blog-27',
+                      description: '油錢計算App的2.0版本，新增了一些功能，目前已經成功上架了。雖然是一個只有計算功能的App，但看到自己親手設計的App出現在App Store還是蠻感動的，算是學習Swift以來的里程碑。',
+                      url: 'https://medium.com/彼得潘的-swift-ios-app-開發教室/27-travel-cost-旅行交通費app-part1-功能介紹-13f2b512fb6f'
+                      },
                       {title: '#26 擇偶條件｜速食店點餐App',
-                      img: 'blog-26',
+                      img: 'blog/blog-26',
                       description: '速食店點餐APP，輸入名字後進行選餐，最後會顯示所選擇餐點的圖片。練習：IBOutlet，IBAction和if else。',
                       url: 'https://medium.com/彼得潘的-swift-ios-app-開發教室/26-擇偶條件-速食店點餐app-3a4e66389456'
                       },
                       {title: '#25 UIPickerView｜日本地名選擇',
-                      img: 'blog-25',
+                      img: 'blog/blog-25',
                       description: '練習用pickerView實作一個可以選擇日本地名的pickerView，將使用者選擇的地名印在下方label中。',
                       url: 'https://medium.com/彼得潘的-swift-ios-app-開發教室/25-uipickerview-日本地名選擇-667c41870897'
                       },
                       {title: '#24 設定公開的AirTable API',
-                      img: 'blog-24',
+                      img: 'blog/blog-24',
                       description: '分享用到AirTable的程式碼時，必須將API Key一起寫進程式碼裡才能讓其他人正常執行APP，如果不希望分享自己私人帳號的API Key，但又想在個人帳號裡方便查看及修改資料，可以採用下列做法。',
                       url: 'https://medium.com/彼得潘的-swift-ios-app-開發教室/24-swift筆記-設定公開的airtable-api-4a0cb048f579'
                       },
                       {title: '#23 訂飲料APP｜迷客夏｜Part4: SearchController',
-                      img: 'blog-23',
+                      img: 'blog/blog-23',
                       description: '介紹訂飲料APP的結帳頁面選取店鋪時用到的SearchController寫法。',
                       url: 'https://medium.com/彼得潘的-swift-ios-app-開發教室/23-訂飲料app-迷客夏-part4-searchcontroller-439aa53c893a'},
                       {title: '#22 訂飲料APP｜迷客夏｜Part3: 包含Section的CollectionView',
-                      img: 'blog-22',
+                      img: 'blog/blog-22',
                       description: '介紹”訂購頁面”所使用的包含Section的Collection View。',
                       url: 'https://medium.com/彼得潘的-swift-ios-app-開發教室/22-訂飲料app-迷客夏-part3-包含section的collectionview-6c56f42232d8'},
                       {title: '#21 訂飲料APP｜迷客夏｜Part2: AirTable/Json Decode',
-                      img: 'blog-21',
+                      img: 'blog/blog-21',
                       description: '介紹關於APP中抓資料及上傳資料的部分。包括AirTable上傳/下載/更新資料以及Json Decode的方法。',
                       url: 'https://medium.com/彼得潘的-swift-ios-app-開發教室/21-訂飲料app-迷客夏-part2-airtable-json-decode-574e02dc1292'},
                       {title: '#20 訂飲料APP｜迷客夏｜Part1 : 功能介紹',
-                      img: 'blog-20',
+                      img: 'blog/blog-20',
                       description: '找了以前很愛喝的迷客夏當作訂飲料APP的主題，由於內容有點多，這篇主要介紹APP的功能，詳細說明會寫在其他篇。',
                       url: 'https://medium.com/彼得潘的-swift-ios-app-開發教室/20-訂飲料app-迷客夏-part1-功能介紹-74e07315937'},
                       {title: '#19 照片牆｜吉卜力劇照APP',
-                      img: 'blog-19',
+                      img: 'blog/blog-19',
                       description: '用CollectionViewController設計顯示吉卜力劇照的照片牆，會依照選擇的電影顯示不同內容，點選圖片後會顯示大圖。',
                       url: 'https://medium.com/彼得潘的-swift-ios-app-開發教室/19-照片牆-吉卜力劇照app-228f0b54715d'},
                       {title: '#18 猜數字/1A2B遊戲APP',
-                      img: 'blog-18',
+                      img: 'blog/blog-18',
                       description: '把猜數字及1A2B寫在同一個APP中，可以選擇要玩哪個遊戲。',
                       url: 'https://medium.com/彼得潘的-swift-ios-app-開發教室/18-猜數字-1a2b遊戲-c756286ad377'},
                       {title: '#17 斷捨離APP｜CRUD新增,讀取,修改,刪除資料',
-                      img: 'blog-17',
+                      img: 'blog/blog-17',
                       description: '這次要練習能儲存資料的App，剛好最近在斷捨離，於是可以記錄自己到底丟了什麼東西的斷捨離APP便理所當然地成為練習主題了。',
                       url: 'https://medium.com/彼得潘的-swift-ios-app-開發教室/17-crud新增-讀取-修改-刪除資料-斷捨離app-e40f98eb1fd9'},
                       {title: '#16 YouTube Data API',
-                      img: 'blog-16',
+                      img: 'blog/blog-16',
                       description: '練習用API下載資料，這次抓了YouTube資料，並選了每天都會看的瑜伽頻道來練習。',
                       url: 'https://medium.com/彼得潘的-swift-ios-app-開發教室/16-youtube-data-api串接練習-80373697a197'}
                       ];
