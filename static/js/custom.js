@@ -201,21 +201,21 @@
 		            speed: 200,
 		            loop:true,
 		            strings: [
-		              'Swift',
-		              'iOS Development'
+									'Rilakkuma',
+									'Chairoikoguma'
 		            ],
 		            breakLines: false
 		        });
           });
         }
-			if ($("#type-it-2026").exists()){
+			if ($("#type-it-2022").exists()){
 						loadScript(plugin_track + 'typeit-master/typeit.min.js', function() {
 								new TypeIt('#type-it-2026', {
 								speed: 200,
 								loop:true,
 								strings: [
-									'Rilakkuma',
-									'Chairoikoguma'
+									'Swift',
+		              'iOS Development'
 								],
 								breakLines: false
 						});
