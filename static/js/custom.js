@@ -208,6 +208,19 @@
 		        });
           });
         }
+			if ($("#type-it-2026").exists()){
+						loadScript(plugin_track + 'typeit-master/typeit.min.js', function() {
+								new TypeIt('#type-it-2026', {
+								speed: 200,
+								loop:true,
+								strings: [
+									'Rilakkuma',
+									'Chairoikoguma'
+								],
+								breakLines: false
+						});
+					});
+				}
     }
 
 	/* ---------------------------------------------- /*
